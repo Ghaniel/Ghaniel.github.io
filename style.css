@@ -1,0 +1,270 @@
+* {
+    scroll-behavior: smooth;
+    scroll-margin-top: 150px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Itim", serif;
+    height: 100%;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 50px;
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 9rem;
+}
+
+nav li {
+    font-size: xx-large;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li::-webkit-scrollbar {
+    display: none;
+}
+
+nav ul li a{
+    transition: color 1s ease, font-weight 1s ease, background-color 1s ease, border-radius 1s ease, padding 1s ease, margin 1s ease;
+}
+
+nav ul li a:hover {
+    color: #78B3CE;
+    font-weight: bold;
+    background-color: #0A5EB0;
+    border-radius: 999px;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: #ffffff;
+}
+
+main {
+    min-height:74vh;
+}
+
+.container {
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    padding: 100px;
+    margin: 100px;
+}
+
+.kontener {
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    padding: 50px;
+    margin: 50px;
+}
+
+.kontainer {
+    justify-content: center;
+    text-align: center;
+}
+
+.kontiner {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 99px;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+}
+
+.skills {
+    text-align: right;
+    padding: 20px;
+    color: white;
+    border-radius: 99px;
+    font-size: larger;
+}
+
+.html {
+    width: 80%;
+    background-color: orange;
+}
+
+.css {
+    width: 75%;
+    background-color: skyblue;
+}
+
+.js {
+    width: 15%;
+    background-color: yellow;
+}
+
+.php {
+    width: 0%;
+    background-color: grey;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+h3 a {
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #78B3CE;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+span {
+    color: #0A5EB0;
+    font-weight: 900;
+}
+
+hr {
+    color: black;
+    box-shadow: 2px 8px 10px;
+}
+
+article {
+    font-size: x-large;
+}
+
+.fotodiri {
+    width: 300px;
+    height: 300px;
+    border-radius: 360%;
+}
+
+.porto {
+    box-shadow: 2px 0px 7px;
+    padding: 20px;
+    width: 900px;
+    overflow: hidden;
+    height: 500px;
+    margin: 40px;
+    border-radius: 99px;
+}
+
+.sumber {
+    box-shadow: 2px 0px 7px;
+    padding: 20px;
+    margin: 40px;
+    width: 900px;
+    height: 500px;
+    border-radius: 99px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+  
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.footer-contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+  
+.footer-contact p {
+    margin: 5px 0;
+}
+  
+.footer-link {
+    color: #6e6e6e;
+    text-decoration: none;
+    font-size: x-large;
+}
+  
+.footer-link:hover {
+    text-decoration: underline;
+}
+  
+.footer-form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.form-input,
+.form-textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    width: 100%;
+}
+  
+.form-button {
+    background-color:#000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+  
+.form-button:hover {
+    background-color: red;
+}
+  
+.footer-copyright {
+    margin-top: 20px;
+    font-size: large;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+    }
+}
